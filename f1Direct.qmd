@@ -1,0 +1,16 @@
+---
+title: "Fast F1"
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+basics for th fast f1 
+```{python}
+import fastf1
+session = fastf1.get_session(2021, 7, 'Q')
+session.name
+
+
+```
